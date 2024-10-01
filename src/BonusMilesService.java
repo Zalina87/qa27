@@ -1,9 +1,9 @@
 public class BonusMilesService {
-    public int calculate (int price) {
-        int miles;
+    public int calculate(int weight, int height) {
+        int index;
+// weight - вес, height - рост
+        index =; int weight/Math.pow(height, 2);
 
-        miles = price/20;
-
-       return miles;
+        return index;
     }
 }
